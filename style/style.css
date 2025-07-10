@@ -44,22 +44,27 @@ nav{
 
 /* button */
 
-.btn {
-    margin-top: 20px;
-    margin-right: 50px;
-    background-color:rgba(78, 71, 255, 1);
-    width: 132px;
-    height: 48px;
-    border: 0;
-    border-radius: 10px;
-    }
-.btn a{
+
+.submit-button a{
+    display: flex;
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    align-items: flex-end;
+    
 }
 
-.btn:hover{
+.submit-button  {
+    background-color: rgba(78, 71, 255, 1); 
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-button:hover{
     background-color: black;
     text-decoration: solid red underline;
 }
@@ -79,18 +84,15 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-
-.btn1{
-    margin-top: 30px;
-    margin-right: 50px;
-    background-color:rgba(78, 71, 255, 1);
-    width: 132px;
-    height: 48px;
-    border: 0;
-    border-radius: 10px;
-    margin-left: 550px;
-;
+.submit-button, .m{
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin: 0 auto;
+    display: flex;
 }
+
 
 /* aciton */
 
@@ -99,13 +101,6 @@ nav{
     justify-content: space-between;
 }
 
-.tittle-bar{
-    
-}
-
-.sub-tittle-bar{
-    
-}
 
 .aciton-text{
     margin-top: 100px;
@@ -163,15 +158,13 @@ h1{
     color: #6633ff; 
     font-size: 3.8em; 
     font-weight: 700; 
-    margin-bottom: 10px;
-    line-height: 1; 
+
 }
 
 .stat-item .label {
     color: #666666; 
-    font-size: 1.3em; 
+    font-size:20px; 
     font-weight: 500; 
-    white-space: nowrap;
 }
 
 
@@ -255,6 +248,97 @@ h2 {
     color: #999999;
   
 }
+
+
+/* login-box */
+
+.login-box{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+/* .from-tittle{ */
+    /* display: inline-block; */
+/* } */
+
+
+.contact-section-wrapper {
+    display: flex;
+    background-color: #ffffff; 
+    border-radius: 20px; 
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow: hidden; 
+    flex-direction: row; 
+}
+
+.contact-left {
+    flex: 1; 
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+}
+
+.contact-left h1 {
+    color: #1a1a1a; 
+    font-size: 3.5em; 
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 800; 
+}
+
+.contact-right {
+    flex: 1; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f8f8; 
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block; 
+    color: #555555; 
+    font-size: 0.95em;
+    margin-bottom: 8px; 
+    font-weight: 600;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%; 
+    padding: 15px 20px; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px; 
+    font-size: 1em;
+    color: #333333;
+    background-color: #fdfdfd; 
+    outline: none; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease; 
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #6633ff; /
+}
+
+.form-group textarea {
+    resize: vertical; 
+    min-height: 120px; 
+}
+
+ 
 
 
 

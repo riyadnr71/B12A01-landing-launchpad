@@ -10,12 +10,12 @@
     <header>
         <nav>
         <h2 class="nav-logo">Logo</h2>
-        <button class="btn"><a href="">Sign Up</a></button>
+        <button class="submit-button"><a href="">Sign Up</a></button>
         
     </nav>
     <div class="banner">
         <h1 class="banner-tittle">Cool Dark UI Template for Webflow Agencies!</h1>
-        <button class="btn1" >Stay Focused</button>
+        <button class="m submit-button">Stay Focused</button>
     </div>
     </header>
 
@@ -25,7 +25,7 @@
         <div class="aciton-text">
             <h1 class="tittle-bar">See It in Action</h1>
         <h3 class="sub-tittle-bar">Explore the live preview and imagine your brand in this bold new look.</h3>
-        <button class="btn">Launch Live Preview</button>
+        <button class="submit-button">Launch Live Preview</button>
         </div>
         <img class="aciton-pic" src="./Assets/wc-mini.png" alt="">
 
@@ -50,8 +50,6 @@
             </div>
         </div>
     </div>
-
-
         <!-- review-sectio -->
 
     <div class="review-section">
@@ -118,13 +116,28 @@
     </div>
 
     <!-- <form></form> -->
-     <form>
-        <div class="from">
-            <div class="from-tittle">
-                <input type="text"level=>
-            </div>
+     <div class="contact-section-wrapper">
+        <div class="contact-left">
+            <h1>Let's Get in Touch</h1>
         </div>
-     </form>
+        <div class="contact-right">
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="write your message...." required></textarea>
+                </div>
+                <button class="submit-button" type="submit">Get in Touch</button>
+            </form>
+        </div>
+    </div>
 
         
 </body>
