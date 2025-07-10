@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+}
+
+/* nav-bar */
+
+.nav-bar{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: cover;
+    background-size: 580px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+
+.nav-logo{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgba(78, 71, 255, 1);
+    font-size: 34px;
+    font-weight: bold;
+}
+
+/* button */
+
+.btn {
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color:rgba(78, 71, 255, 1);
+    width: 132px;
+    height: 48px;
+    border: 0;
+    border-radius: 10px;
+    }
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: black;
+    text-decoration: solid red underline;
+}
+
+/* banner */
+
+.banner{
+    
+
+}
+
+.banner-tittle{
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn1{
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color:rgba(78, 71, 255, 1);
+    width: 132px;
+    height: 48px;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 550px;
+;
+}
+
